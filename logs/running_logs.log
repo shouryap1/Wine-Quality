@@ -44,3 +44,44 @@ Source-Age: 0
 [2024-03-21 00:41:32,343: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-03-21 18:52:12,059: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 18:52:12,085: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 18:52:12,093: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-21 18:52:12,096: INFO: common: created directory at: artifacts]
+[2024-03-21 18:52:12,098: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 19:09:32,198: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 19:09:32,204: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 19:09:32,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 19:09:32,209: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-21 19:09:32,210: INFO: common: created directory at: artifacts]
+[2024-03-21 19:09:32,210: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 19:09:32,210: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 19:09:32,214: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 19:09:32,214: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-21 19:09:32,214: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/home/shourya/Desktop/Projects/Wine Quality/main.py", line 20, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2024-03-21 19:11:07,858: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-21 19:11:08,144: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 19:11:08,150: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 19:11:08,151: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 19:11:08,154: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-21 19:11:08,155: INFO: common: created directory at: artifacts]
+[2024-03-21 19:11:08,155: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 19:11:08,155: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 19:11:08,158: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 19:11:08,158: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-21 19:11:08,164: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 19:11:08,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 19:11:08,168: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-21 19:11:08,169: INFO: common: created directory at: artifacts]
+[2024-03-21 19:11:08,169: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 19:11:08,180: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
