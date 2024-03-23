@@ -123,3 +123,99 @@ x==========x]
 [2024-03-24 01:05:59,808: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[2024-03-24 01:07:53,109: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-24 01:07:55,165: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:07:55,168: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:07:55,173: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:07:55,175: INFO: common: created directory at: artifacts]
+[2024-03-24 01:07:55,176: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-24 01:18:52,061: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-24 01:18:53,078: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-24 01:18:53,083: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:18:53,085: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:18:53,088: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:18:53,088: INFO: common: created directory at: artifacts]
+[2024-03-24 01:18:53,088: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-24 01:18:53,089: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-24 01:18:53,092: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:18:53,092: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-24 01:18:53,097: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:18:53,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:18:53,102: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:18:53,102: INFO: common: created directory at: artifacts]
+[2024-03-24 01:18:53,103: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-24 01:18:53,114: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:18:53,114: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-24 01:18:53,114: ERROR: main: ModelTrainerTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "/home/shourya/Desktop/Projects/Wine Quality/main.py", line 32, in <module>
+    data_transformation.main()
+TypeError: ModelTrainerTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2024-03-24 01:19:33,290: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-24 01:19:34,179: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-24 01:19:34,185: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:19:34,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:19:34,190: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:19:34,190: INFO: common: created directory at: artifacts]
+[2024-03-24 01:19:34,191: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-24 01:19:34,191: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-24 01:19:34,194: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:19:34,194: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-24 01:19:34,200: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:19:34,201: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:19:34,205: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:19:34,206: INFO: common: created directory at: artifacts]
+[2024-03-24 01:19:34,206: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-24 01:19:34,216: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:19:34,216: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-24 01:19:34,216: ERROR: main: ModelTrainerTrainingPipeline.main() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "/home/shourya/Desktop/Projects/Wine Quality/main.py", line 32, in <module>
+    data_transformation.main()
+TypeError: ModelTrainerTrainingPipeline.main() missing 1 required positional argument: 'self'
+[2024-03-24 01:20:00,040: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-24 01:20:00,918: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-24 01:20:00,924: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:20:00,925: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:20:00,929: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:20:00,929: INFO: common: created directory at: artifacts]
+[2024-03-24 01:20:00,929: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-24 01:20:00,930: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-24 01:20:00,932: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:20:00,932: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-24 01:20:00,938: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:20:00,939: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:20:00,942: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:20:00,943: INFO: common: created directory at: artifacts]
+[2024-03-24 01:20:00,943: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-24 01:20:00,953: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:20:00,953: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-24 01:20:00,960: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:20:00,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:20:00,964: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:20:00,965: INFO: common: created directory at: artifacts]
+[2024-03-24 01:20:00,965: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-24 01:20:00,995: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-24 01:20:00,995: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-24 01:20:01,004: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-24 01:20:01,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-24 01:20:01,011: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-03-24 01:20:01,012: INFO: common: created directory at: artifacts]
+[2024-03-24 01:20:01,012: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-24 01:20:01,038: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
